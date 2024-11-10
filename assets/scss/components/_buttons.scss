@@ -1,0 +1,12 @@
+@use '../abstracts/_variables' as *;
+/*--------------------------------------------------------------
+# Button Section
+--------------------------------------------------------------*/
+
+button{
+    background-color: $tertiary-color;
+    padding: 10px;
+    border-radius: 5%;
+    border: none;
+    margin-left: 10px;
+}

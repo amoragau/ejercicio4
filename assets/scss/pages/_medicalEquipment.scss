@@ -1,0 +1,14 @@
+@use '../abstracts/_variables' as *;
+/*--------------------------------------------------------------
+# Medical Equipment Section
+--------------------------------------------------------------*/
+.section__medical{
+    width: 400px;
+    display: flex;
+    padding: 15px;
+}
+
+.medical__box{
+    width: 300px;
+    text-align: center;    
+}

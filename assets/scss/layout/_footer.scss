@@ -1,0 +1,101 @@
+@use '../abstracts/_variables' as *;
+/*--------------------------------------------------------------
+# Global Footer
+--------------------------------------------------------------*/
+.footer{
+    background: $primary-color;
+    justify-content: space-evenly;
+    padding: 10px 10px 0 10px;
+}
+
+.footer__box{
+    color: $text-color-white;
+    margin: 5px;
+    width: 400px;
+    display: inline-block;
+    p{
+        padding: 2px 0;
+        margin-bottom:0;
+    }
+}
+.footer__image img{
+    width: 15%;
+}
+
+.footer__icon{
+    font-size: 1.3rem;
+    padding: 1px;
+    margin: 10px 5px 0 2px;
+    color: $text-color-white;
+}
+.footer__box--center{
+    text-align: center;
+    padding: 10px 0;
+    background: $primary-color;
+    color: $text-color-white;
+}
+.footer__nav{
+    padding: 10px;
+    nav{
+        ul{
+            list-style: none;
+        }
+        li{
+            display: block;
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: $text-color-white;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .footer__box{
+        color: $text-color-white;
+        margin: 5px;
+        width: 250px;
+        display: inline-block;
+    }
+    .footer__nav{
+        nav{
+            ul{
+                list-style: none;
+            }
+            li{
+                display: block;
+                padding: 5px;
+            }
+            a{
+                text-decoration: none;
+                color: $text-color-white;
+            }
+        }
+    }
+}
+
+@media (max-width: 845px){
+    .footer__box{
+        color: $text-color-white;
+        margin: 5px;
+        width: 250px;
+        display: inline-block;
+    }
+    .footer__nav{
+        nav{
+            ul{
+                list-style: none;
+            }
+            li{
+                display: block;
+                padding: 5px;
+            }
+            a{
+                text-decoration: none;
+                color: $text-color-white;
+            }
+        }
+    }
+}
+
