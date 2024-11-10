@@ -50,11 +50,7 @@ button {
 .header__nav ul {
   list-style: none;
 }
-<<<<<<< HEAD
-@media (max-width: 767px) {
-=======
 @media (min-width: 768px) {
->>>>>>> a1d5f7abe84fb88e2197ab43ded4783728fb514c
   .header__nav {
     max-height: none;
     top: 0;
@@ -75,22 +71,14 @@ button {
 .nav__menu a:hover a {
   background-color: #3498db;
 }
-<<<<<<< HEAD
-@media (max-width: 767px) {
-=======
 @media (min-width: 768px) {
->>>>>>> a1d5f7abe84fb88e2197ab43ded4783728fb514c
   .nav__menu a:hover a {
     background-color: transparent;
     color: #000000;
   }
 }
 
-<<<<<<< HEAD
-@media (max-width: 767px) {
-=======
 @media (min-width: 768px) {
->>>>>>> a1d5f7abe84fb88e2197ab43ded4783728fb514c
   .nav__menu li {
     float: left;
   }
@@ -122,11 +110,7 @@ button {
   float: right;
   padding: 40px 20px;
 }
-<<<<<<< HEAD
-@media (max-width: 767px) {
-=======
 @media (min-width: 768px) {
->>>>>>> a1d5f7abe84fb88e2197ab43ded4783728fb514c
   .hamburger {
     display: none;
   }
@@ -199,11 +183,7 @@ button {
   padding: 2px 0;
   margin-bottom: 0;
 }
-<<<<<<< HEAD
-@media (max-width: 845px) {
-=======
 @media (max-width: 767px) {
->>>>>>> a1d5f7abe84fb88e2197ab43ded4783728fb514c
   .footer__box {
     color: #ffffff;
     margin: 5px;
@@ -244,11 +224,7 @@ button {
   text-decoration: none;
   color: #ffffff;
 }
-<<<<<<< HEAD
-@media (max-width: 845px) {
-=======
 @media (max-width: 767px) {
->>>>>>> a1d5f7abe84fb88e2197ab43ded4783728fb514c
   .footer__nav nav ul {
     list-style: none;
   }
