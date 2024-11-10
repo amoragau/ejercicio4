@@ -1,8 +1,12 @@
+@use '../abstracts/mixins' as m;
 .card{
     width: 400px;
     height: 400px;
     display: flex;
     padding: 15px;
+    @include m.movil-large(){ 
+        width: 100%;
+    }
 }
 .card-img-top{
     border-radius:150px;
