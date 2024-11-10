@@ -7,3 +7,18 @@
     justify-content: center;
     flex-flow: row wrap;
 }
+@mixin movil-lite(){
+    @media  (max-width: 767px) {
+        @content;
+    }
+}
+@mixin movil(){
+    @media  (max-width: 845px) {
+        @content;
+    }
+}
+@mixin movil-large(){
+    @media  (max-width: 1724px) {
+        @content;
+    }
+}
