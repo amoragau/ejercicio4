@@ -27,7 +27,7 @@
     margin-top: 20px;
     margin-bottom: 15px;
     font-size: 3rem;
-    @include m.movil-lite(){
+    @include m.movil-lite-max(){
         font-size: 2rem;
     }
 }
@@ -65,7 +65,7 @@
     text-align: center;
     background-color: $quaternary-color;
     border-radius: 8%;
-    @include m.movil-lite(){
+    @include m.movil-lite-max(){
         margin-bottom: 15px;
     }
     @include m.movil-large(){

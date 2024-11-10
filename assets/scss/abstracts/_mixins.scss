@@ -7,8 +7,13 @@
     justify-content: center;
     flex-flow: row wrap;
 }
-@mixin movil-lite(){
+@mixin movil-lite-max(){
     @media  (max-width: 767px) {
+        @content;
+    }
+}
+@mixin movil-lite-min(){
+    @media  (min-width: 768px) {
         @content;
     }
 }

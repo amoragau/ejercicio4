@@ -30,7 +30,7 @@
     ul{    
         list-style: none;    
     }
-    @include m.movil-lite(){
+    @include m.movil-lite-min(){
         max-height: none;
         top: 0;
         position: relative;
@@ -38,8 +38,6 @@
         width: fit-content;
         background-color: transparent;
     }
-
-
 }
 
 .nav__menu a{
@@ -50,13 +48,13 @@
 }
 .nav__menu a:hover a{
     background-color: $primary-color;
-    @include m.movil-lite(){
+    @include m.movil-lite-min(){
         background-color: transparent;
         color: $text-color-black;
     }
 }
 .nav__menu li{
-    @include m.movil-lite(){
+    @include m.movil-lite-min(){
         float: left;
     }
 }
@@ -84,7 +82,7 @@
     cursor: pointer;
     float: right;
     padding: 40px 20px;
-    @include m.movil-lite(){
+    @include m.movil-lite-min(){
         display: none;
     }
 }

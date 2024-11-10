@@ -18,7 +18,7 @@
         padding: 2px 0;
         margin-bottom:0;
     }
-    @include m.movil(){
+    @include m.movil-lite-max(){
         color: $text-color-white;
         margin: 5px;
         width: 250px;
@@ -56,7 +56,7 @@
             color: $text-color-white;
         }
     }
-    @include m.movil(){
+    @include m.movil-lite-max(){
         nav{
             ul{
                 list-style: none;
