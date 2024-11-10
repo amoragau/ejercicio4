@@ -1,0 +1,21 @@
+/* CSS OOCSS*/
+/* ESTRUCTURA */
+.card{
+  margin: 0.5rem;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+/** Apariencia **/
+.card--highlight{
+  background-color: #ffff00;
+}
+.card--shadow{
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.card__title{
+  font-size: 18px;
+  font-weight: bold;
+}
+.card__text{
+  font-size: 14px;
+}
