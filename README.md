@@ -1,31 +1,17 @@
 # Hospital
 
-**Hospital** es un sitio web diseñado para que los pacientes puedan conocer a los profesionales de la salud, así como obtener información sobre su ubicación en caso de emergencias.
+**Hospital** Hospital es un sitio web creado para que los pacientes puedan conocer a los profesionales de la salud y obtener información sobre su ubicación en caso de emergencias. Este proyecto fue elegido porque permite implementar mixins, lo cual optimiza el uso de estilos CSS reutilizables, mejorando la eficiencia y consistencia del código.
 
 ## Instrucciones para Visualizar el Proyecto
 
 1. Clona el repositorio:
 
 ``` bash
-git clone git@github.com:valeriatorrealba/Hospital.git
+git clone git@github.com:amoragau/ejercicio4.git
 ``` 
 2. Abre el proyecto en Visual Studio Code.
 3. Inicia Live server (si no lo tienes lo puedes instalar)
-4. Accede al index.html en tu navegador desde la carpeta v1 para ver la primera versión
-
-``` bash
-http://127.0.0.1:5500/v1/index.html
-``` 
-5. Accede al index.html en tu navegador desde la carpeta v2 para ver la segunda versión
-
-``` bash
-http://127.0.0.1:5500/v2/index.html
-``` 
-6. Accede al index.html en tu navegador desde la carpeta v3 para ver la segunda versión
-
-``` bash
-http://127.0.0.1:5500/v3/index.html
-``` 
+4. Accede al index.html en tu navegador desde la carpeta para ver la primera versión
 
 ## Estructura de carpetas y archivos
 ``` bash
