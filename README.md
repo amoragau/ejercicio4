@@ -106,4 +106,4 @@ Bootstrap se integró al proyecto como base para una estructura rápida y respon
 - Iconos [Fontawesome](https://fontawesome.com/)
 
 ## Autor
-Desarrollado por Valeria Torrealba.
+Desarrollado por Valeria Torrealba y Ana Moraga.
